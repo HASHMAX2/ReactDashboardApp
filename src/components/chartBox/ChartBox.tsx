@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./chartbox.scss";
 import { Line, LineChart, ResponsiveContainer } from "recharts";
 
 function ChartBox() {
@@ -58,7 +59,7 @@ function ChartBox() {
         <h1>11.35</h1>
         <Link to="/">View All</Link>
       </div>
-      <div className="chartInfo">
+      <div className="chartinfo">
         <div className="chart">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart width={300} height={100} data={data}>
@@ -66,6 +67,7 @@ function ChartBox() {
                 type="monotone"
                 dataKey="pv"
                 stroke="#8884d8"
+                // dot={false}
                 strokeWidth={2}
               />
             </LineChart>
