@@ -1,11 +1,6 @@
-
-import './users.scss'
+import "./users.scss";
 function Users() {
-  return (
-    <div className='home'>
-      Users
-    </div>
-  )
+  return <div className="users">Users</div>;
 }
 
-export default Users
+export default Users;
