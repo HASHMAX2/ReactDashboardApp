@@ -319,6 +319,7 @@ export const menu = [
       phone: "123 456 789",
       createdAt: "01.02.2023",
       verified: true,
+      age:20
     },
     {
       id: 2,
